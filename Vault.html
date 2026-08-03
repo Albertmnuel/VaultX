@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VaultX - Banking UI Concept</title>
+  <link rel="stylesheet" href="vault.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-solid fa-building-columns"></i>
+        <h2>VaultX</h2>
+      </div>
+
+      <nav>
+       <ul>
+  <li class="active">
+    <a href="#">
+      <i class="fa-solid fa-house"></i>
+      <span>Dashboard</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa-solid fa-wallet"></i>
+      <span>Accounts</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa-solid fa-money-bill-transfer"></i>
+      <span>Transfers</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa-solid fa-credit-card"></i>
+      <span>Cards</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa-solid fa-chart-line"></i>
+      <span>Analytics</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa-solid fa-gear"></i>
+      <span>Settings</span>
+    </a>
+  </li>
+</ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Topbar -->
+      <header class="topbar">
+        <div class="topbar-text">
+          <h1>Welcome back, Albert</h1>
+          <p>Manage your finances easily and securely.</p>
+        </div>
+
+       <div class="profile">
+  <img src="C:\Users\User\CODES\VaultX\images\VaultX logo.png" alt="Albert">
+</div>
+      </header>
+
+      <!-- Balance Cards -->
+      <section id="dashboard" class="cards">
+        <div class="card primary">
+          <p>Total Balance</p>
+          <h2>₦1,245,000</h2>
+          <span>+12.4% this month</span>
+        </div>
+
+        <div class="card" id="accounts">
+          <p>Income</p>
+          <h2>₦420,000</h2>
+          <span>Last 30 days</span>
+        </div>
+
+        <div class="card" id="analytics">
+          <p>Expenses</p>
+          <h2>₦185,000</h2>
+          <span>Last 30 days</span>
+        </div>
+      </section>
+
+      <!-- Quick Actions -->
+      <section id="transfers" class="quick-actions">
+        <h2>Quick Actions</h2>
+        <div class="action-buttons">
+          <button><i class="fa-solid fa-paper-plane"></i> Send Money</button>
+          <button><i class="fa-solid fa-download"></i> Receive</button>
+          <button id="cards"><i class="fa-solid fa-plus"></i> Add Card</button>
+          <button id="settings"><i class="fa-solid fa-file-invoice"></i> Pay Bills</button>
+        </div>
+      </section>
+
+      <!-- Transactions -->
+      <section class="transactions">
+        <div class="section-title">
+          <h2>Recent Transactions</h2>
+          <a href="#">See all</a>
+        </div>
+
+        <div class="transaction-list">
+          <div class="transaction">
+            <div class="left">
+              <div class="icon green"><i class="fa-solid fa-arrow-down"></i></div>
+              <div>
+                <h4>Salary Payment</h4>
+                <p>March 21, 2026</p>
+              </div>
+            </div>
+            <h3 class="amount plus">+ ₦250,000</h3>
+          </div>
+
+          <div class="transaction">
+            <div class="left">
+              <div class="icon red"><i class="fa-solid fa-cart-shopping"></i></div>
+              <div>
+                <h4>Online Shopping</h4>
+                <p>March 20, 2026</p>
+              </div>
+            </div>
+            <h3 class="amount minus">- ₦35,000</h3>
+          </div>
+
+          <div class="transaction">
+            <div class="left">
+              <div class="icon blue"><i class="fa-solid fa-bolt"></i></div>
+              <div>
+                <h4>Electricity Bill</h4>
+                <p>March 19, 2026</p>
+              </div>
+            </div>
+            <h3 class="amount minus">- ₦18,500</h3>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
